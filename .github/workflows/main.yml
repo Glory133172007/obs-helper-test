@@ -42,4 +42,4 @@ jobs:
         with:
           bucket_name: tookit-new-bucket-1
           operation_type: deleteBucket
-          clear_bucket: false
+          clear_bucket: true
