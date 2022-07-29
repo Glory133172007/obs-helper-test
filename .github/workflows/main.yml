@@ -31,7 +31,7 @@ jobs:
           secret_key: ${{ secrets.SECRETACCESSKEY }}
           bucket_name: tookit-new-bucket-1
           local_file_path: ./README.md
-          obs_file_path: src/README.md
+          obs_file_path: src1/README.md
           operation_type: upload
 #       # 从桶内下载文件
 #       - name: Download from Huawei Cloud OBS
