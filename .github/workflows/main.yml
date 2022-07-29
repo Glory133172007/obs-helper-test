@@ -27,6 +27,8 @@ jobs:
       - name: Upload File to Huawei Cloud OBS
         uses: huaweicloud/obs-helper@v1.1.0
         with:
+          access_key: ${{ secrets.ACCESSKEY }} 
+          secret_key: ${{ secrets.SECRETACCESSKEY }}
           bucket_name: tookit-new-bucket-1
           local_file_path: ./README.md
           obs_file_path: src/README.md
